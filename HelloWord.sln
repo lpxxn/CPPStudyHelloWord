@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWord", "HelloWord\HelloWord.vcxproj", "{32324610-7FC6-4A9D-B8D6-C95270D352FA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MySocketServer", "MySocketServer\MySocketServer.vcxproj", "{119768B8-425C-4D74-8110-339AAE77D836}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32324610-7FC6-4A9D-B8D6-C95270D352FA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{32324610-7FC6-4A9D-B8D6-C95270D352FA}.Debug|Win32.Build.0 = Debug|Win32
+		{32324610-7FC6-4A9D-B8D6-C95270D352FA}.Release|Win32.ActiveCfg = Release|Win32
+		{32324610-7FC6-4A9D-B8D6-C95270D352FA}.Release|Win32.Build.0 = Release|Win32
+		{119768B8-425C-4D74-8110-339AAE77D836}.Debug|Win32.ActiveCfg = Debug|Win32
+		{119768B8-425C-4D74-8110-339AAE77D836}.Debug|Win32.Build.0 = Debug|Win32
+		{119768B8-425C-4D74-8110-339AAE77D836}.Release|Win32.ActiveCfg = Release|Win32
+		{119768B8-425C-4D74-8110-339AAE77D836}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
