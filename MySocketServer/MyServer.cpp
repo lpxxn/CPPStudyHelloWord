@@ -9,6 +9,7 @@ const int MAX_ACCEPT=20;
 
 void main(int argc, char *argv[]) 
 {
+	 //加载套接字库
 	 WSADATA wsaDATA;
 	 WORD sockVersion  = MAKEWORD(2,2);
 	 if(WSAStartup(sockVersion,&wsaDATA)!=0)
@@ -17,6 +18,7 @@ void main(int argc, char *argv[])
 		 std::cin.get();
 		 exit(1);
 	 }
+	 //创建套接字
 	SOCKET sockfd;
 	SOCKET client_fd;
 
@@ -59,6 +61,9 @@ void main(int argc, char *argv[])
 			//std::cin.get();
 			continue;
 		}
+		char recvBuf[50];
+		recv(client_fd,recvBuf,50,0);
+		std::cout<<recvBuf<<std::endl;
 		//send
 		if(send(client_fd,msg,strlen(msg),0)==-1)
 		{
